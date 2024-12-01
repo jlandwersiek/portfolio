@@ -44,3 +44,12 @@ Welcome to my portfolio! This repository showcases a variety of quantitative res
 1. Clone the repository:  
    ```bash
    git clone https://github.com/yourusername/portfolio.git
+2. Navigate to the project folder:
+   ```bash
+   cd portfolio
+3. Install dependencies (if necessary):
+   ```bash
+   pip install -r requirements.txt
+4. Run the code (for any specific project):
+   ```bash
+   python stock_price_forecasting.py
