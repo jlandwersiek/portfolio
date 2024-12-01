@@ -14,7 +14,7 @@ Welcome to my portfolio! This repository showcases a variety of quantitative res
      - ARIMA for time series forecasting
    - **Key Results**:
      - Successful prediction of stock price trends with a focus on accuracy and model evaluation.
-   - **Code**: [ARIMA Forecasting Code](./stock_price_forecasting.py)
+   - **Code**: [ARIMA Forecasting Code](./stock_price_analysis.py)
 
 ### 2. **Monte Carlo Simulation for π Estimation**
    - **Description**: This paper demonstrates the application of Monte Carlo methods, specifically using acceptance/rejection and transformation techniques, to estimate the value of π and analyze Poisson and Gaussian distributions.
