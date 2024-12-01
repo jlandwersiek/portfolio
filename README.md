@@ -5,6 +5,8 @@ Welcome to my portfolio! This repository showcases a variety of quantitative res
 ## Projects
 
 ### 1. **Stock Price Forecasting using ARIMA**
+![image](https://github.com/user-attachments/assets/e2e7e8a3-01ec-4f2c-a2e3-1c02fb10e612)
+
    - **Description**: A time series analysis project where ARIMA (AutoRegressive Integrated Moving Average) was used to forecast stock prices based on historical data.
    - **Objective**: Predict future stock prices using ARIMA models and evaluate the model's performance.
    - **Technologies Used**:
