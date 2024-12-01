@@ -23,7 +23,7 @@ Welcome to my portfolio! This repository showcases a variety of quantitative res
    - **Technologies Used**:  
      - Python (NumPy, Matplotlib)
      - Monte Carlo methods (Acceptance/Rejection, Box-Muller Transformations)
-   - **Access the Paper**: [Monte Carlo Paper (PDF)](./MonteCarloMethods.pdf)
+   - **Access the Paper**: [Monte Carlo Paper (PDF)](./Landwersiek-MCReport.pdf)
 
 ### 3. **Polarization Data Analysis for Forecasting Unseen Data**
    - **Description**: Analyzing polarization data to forecast data from points unseen by detectors, leveraging statistical models and computational methods to improve prediction accuracy in scientific research.
