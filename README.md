@@ -33,7 +33,7 @@ Welcome to my portfolio! This repository showcases a variety of quantitative res
      - Statistical modeling
    - **Key Results**:
      - Successfully created models to extrapolate data and improve predictions from limited measurements.
-   - **Code**: [Polarization Data Analysis Code](./polarization_data_analysis.py)
+   - **Code**: [Polarization Data Analysis Code](./Rsumfinaledit.py)
 
 ## Skills Highlighted
 - **Programming Languages**: Python
