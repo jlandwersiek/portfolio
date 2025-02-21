@@ -30,7 +30,7 @@ To run this project:
 
   1. Install the required libraries:
 ```
-pip install yfinance pmdarima statsmodels scikit-learn
+pip install yfinance pmdarima statsmodels scikit-learn numpy pandas matplotlib
 ```
   2. Run the main script:
 ```
