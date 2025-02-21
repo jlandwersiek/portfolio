@@ -7,7 +7,7 @@ Welcome to my portfolio! This repository showcases a variety of quantitative res
 ### 1. Stock Price Forecasting using ARIMA
 **Description**: This project uses the SP500 index to predict future stock prices using ARIMA models based on historical data.  
 **Objective**: Forecast stock prices and evaluate model performance.  
-[View Repository]()
+[Stock Price Analysis](https://github.com/jlandwersiek/portfolio/tree/stock-price-forecasting)
 
 ### 2. Monte Carlo Simulation for π Estimation
 **Description**: Demonstrates Monte Carlo methods for estimating π and analyzing Poisson and Gaussian distributions.  
