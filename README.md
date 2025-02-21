@@ -22,7 +22,7 @@ This project demonstrates how to predict the closing stock price of the S&P 500 
 ```
 
 ### Technologies Used:  
-  - Python (pandas, numpy, matplotlib, statsmodels, pmdarima, scikit-learn)
+  - Python (Pandas, NumPy, Matplotlib, Statsmodels, pmdarima, Scikit-Learn)
   - Yahoo Finance API (yfinance)
 
 ### Running the Project:  
