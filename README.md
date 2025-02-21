@@ -27,7 +27,7 @@ Welcome to my portfolio! This repository showcases a variety of quantitative res
 **Description**: Modeling and forecasting energy consumption trends using statistical analysis to improve energy grid efficiency.  
 **Technologies Used**:  
 - Python (Pandas, NumPy, SciPy, Matplotlib)  
-- Time Series Forecasting and Data Analysis  
+- Time Series Forecasting and Data Analysis
 [Energy Analysis](https://github.com/jlandwersiek/portfolio/tree/energy-analysis)
 
 ## Skills Highlighted
