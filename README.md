@@ -13,20 +13,22 @@ Welcome to my portfolio! This repository showcases a variety of quantitative res
 **Description**: Demonstrates Monte Carlo methods for estimating π and analyzing Poisson and Gaussian distributions.  
 **Technologies Used**:  
 - Python (NumPy, Matplotlib)  
-- Monte Carlo methods (Acceptance/Rejection, Box-Muller Transformations)  
-[View Paper Repository]()
+- Monte Carlo methods (Acceptance/Rejection, Box-Muller Transformations)
+[Monte Carlo Paper](https://github.com/jlandwersiek/portfolio/tree/monte-carlo-paper)
+
 
 ### 3. Polarization Data Analysis for Forecasting Unseen Data
 **Description**: Analyzes polarization data to forecast unseen data points using statistical models.  
 **Objective**: Improve predictions from limited measurements by extrapolating data.  
-[View Repository]()
+[Polarization Analysis](https://github.com/jlandwersiek/portfolio/tree/polarization-analysis)
+
 
 ### 4. Power Grid and Energy Efficiency Forecasting
 **Description**: Modeling and forecasting energy consumption trends using statistical analysis to improve energy grid efficiency.  
 **Technologies Used**:  
 - Python (Pandas, NumPy, SciPy, Matplotlib)  
 - Time Series Forecasting and Data Analysis  
-[View Repository]()
+[Energy Analysis](https://github.com/jlandwersiek/portfolio/tree/energy-analysis)
 
 ## Skills Highlighted
 - **Programming Languages**: Python  
