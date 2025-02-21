@@ -49,13 +49,15 @@ If you're interested in data science, physics applications, or energy analytics,
 
 ### 4. Power Grid and Energy Efficiency Forecasting
 **Description**: Modeling and forecasting energy consumption trends using statistical analysis to improve energy grid efficiency.  
-**Technologies Used**: Python (Pandas, NumPy, SciPy, Matplotlib), Time Series Forecasting and Data Analysis, Energy Analysis
+**Technologies Used**: Python (NumPy, Pandas, NetworkX, Matplotlib, Scikit-Learn, pmdarima), Time Series Forecasting and Data Analysis, Energy Analysis
 
 [Energy Analysis](https://github.com/jlandwersiek/portfolio/tree/energy-analysis)
 
 ## Skills Highlighted
-- **Programming Languages**: Python  
-- **Data Analysis**: Time Series Forecasting, Statistical Modeling, Monte Carlo Simulations  
-- **Data Visualization**: Matplotlib, Seaborn  
-- **Machine Learning**: ARIMA, Monte Carlo Methods  
-- **Tools**: Git, Jupyter Notebooks  
+- **Data Analysis & Forecasting:** Utilizing time-series analysis to model and predict power demand using ARIMA, applying machine learning techniques such as K-means clustering to assess grid stability.
+- **Machine Learning:** Implementing K-means clustering for stability classification, forecasting power demand using ARIMA, and leveraging regression models to understand energy efficiency in buildings.
+- **Statistical Analysis:** Conducting load fluctuation analysis and calculating voltage deviations to detect instability in power grids, applying statistical methods to assess the stability of substations.
+- **Data Visualization:** Creating visualizations using Matplotlib to showcase power demand trends, load fluctuations, and clustering results, as well as visualizing network graphs with NetworkX for grid structure representation.
+- **Energy & Power Systems:** Simulating and analyzing power grid systems, from basic grid structures with substations and transmission lines to advanced stability analysis using demand simulations.
+- **Forecasting & Optimization:** Using ARIMA models for forecasting future energy demand, and implementing strategies to balance grid loads for optimal efficiency.
+- **Programming:** Proficient in Python, using libraries such as NumPy, Pandas, Scikit-Learn, and pmdarima for data processing, modeling, and machine learning tasks.
