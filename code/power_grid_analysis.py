@@ -22,6 +22,16 @@ connections = [
 ]
 grid.add_edges_from(connections)
 
+# Step 1: Visualize the Power Grid Structure
+plt.figure(figsize=(8, 6))
+pos = nx.spring_layout(grid)  # positions for all nodes
+nx.draw_networkx_nodes(grid, pos, node_size=700, node_color='lightblue')
+nx.draw_networkx_edges(grid, pos, width=2, alpha=0.7, edge_color='gray')
+nx.draw_networkx_labels(grid, pos, font_size=12, font_weight='bold', font_color='black')
+plt.title("Power Grid Structure")
+plt.axis("off")  # turn off the axis
+plt.show()
+
 # step 2: generate simulated power demand data
 time_steps = 24  # 24 hours for simulation
 demand_data = {}
