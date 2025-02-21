@@ -14,6 +14,7 @@ Welcome to my portfolio! This repository showcases a variety of quantitative res
 **Technologies Used**:  
 - Python (NumPy, Matplotlib)  
 - Monte Carlo methods (Acceptance/Rejection, Box-Muller Transformations)
+
 [Monte Carlo Paper](https://github.com/jlandwersiek/portfolio/tree/monte-carlo-paper)
 
 
@@ -28,6 +29,7 @@ Welcome to my portfolio! This repository showcases a variety of quantitative res
 **Technologies Used**:  
 - Python (Pandas, NumPy, SciPy, Matplotlib)  
 - Time Series Forecasting and Data Analysis
+
 [Energy Analysis](https://github.com/jlandwersiek/portfolio/tree/energy-analysis)
 
 ## Skills Highlighted
