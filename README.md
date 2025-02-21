@@ -1,43 +1,36 @@
 # Jessica Landwersiek - Portfolio
 
-Welcome to my portfolio! This repository showcases a variety of quantitative research projects, including time series forecasting, Monte Carlo simulations, and data analysis with Python.
+Welcome to my portfolio! This repository showcases a variety of quantitative research projects, including time series forecasting, Monte Carlo simulations, data analysis with Python, and energy efficiency modeling.
 
 ## Projects
 
-### 1. **Stock Price Forecasting using ARIMA**
-![image](https://github.com/user-attachments/assets/e2e7e8a3-01ec-4f2c-a2e3-1c02fb10e612)
+### 1. Stock Price Forecasting using ARIMA
+**Description**: This project uses the SP500 index to predict future stock prices using ARIMA models based on historical data.  
+**Objective**: Forecast stock prices and evaluate model performance.  
+[View Repository]()
 
-   - **Description**: A time series analysis project where ARIMA (AutoRegressive Integrated Moving Average) was used to forecast stock prices based on historical data.
-   - **Objective**: Predict future stock prices using ARIMA models and evaluate the model's performance.
-   - **Technologies Used**:
-     - Python (Pandas, NumPy, Statsmodels)
-     - ARIMA for time series forecasting
-   - **Key Results**:
-     - Successful prediction of stock price trends with a focus on accuracy and model evaluation.
-   - **Code**: [ARIMA Forecasting Code](./stock_price_analysis.py)
+### 2. Monte Carlo Simulation for π Estimation
+**Description**: Demonstrates Monte Carlo methods for estimating π and analyzing Poisson and Gaussian distributions.  
+**Technologies Used**:  
+- Python (NumPy, Matplotlib)  
+- Monte Carlo methods (Acceptance/Rejection, Box-Muller Transformations)  
+[View Paper Repository]()
 
-### 2. **Monte Carlo Simulation for π Estimation**
-   - **Description**: This paper demonstrates the application of Monte Carlo methods, specifically using acceptance/rejection and transformation techniques, to estimate the value of π and analyze Poisson and Gaussian distributions.
-   - **Abstract**:  
-     "Monte Carlo methods were employed using acceptance/rejection and transformation techniques. The value of π was found to be 3.1404 with an uncertainty of 0.0016. Histograms of Poisson deviates were plotted with μ= 1, μ=10.3, and μ=102.1, with a lower mean producing more accurate outcomes. Box-Muller transformations were used to find Gaussian deviates with reduced χ2 of 1.097 and 1.054 for perpendicular distributions."
-   - **Technologies Used**:  
-     - Python (NumPy, Matplotlib)
-     - Monte Carlo methods (Acceptance/Rejection, Box-Muller Transformations)
-   - **Access the Paper**: [Monte Carlo Paper (PDF)](./Landwersiek-MCReport.pdf)
+### 3. Polarization Data Analysis for Forecasting Unseen Data
+**Description**: Analyzes polarization data to forecast unseen data points using statistical models.  
+**Objective**: Improve predictions from limited measurements by extrapolating data.  
+[View Repository]()
 
-### 3. **Polarization Data Analysis for Forecasting Unseen Data**
-   - **Description**: Analyzing polarization data to forecast data from points unseen by detectors, leveraging statistical models and computational methods to improve prediction accuracy in scientific research.
-   - **Objective**: Develop a model to estimate and predict values from regions where direct measurements are unavailable.
-   - **Technologies Used**:
-     - Python (SciPy, NumPy)
-     - Statistical modeling
-   - **Key Results**:
-     - Successfully created models to extrapolate data and improve predictions from limited measurements.
-   - **Code**: [Polarization Data Analysis Code](./Rsumfinaledit.py)
+### 4. Power Grid and Energy Efficiency Forecasting
+**Description**: Modeling and forecasting energy consumption trends using statistical analysis to improve energy grid efficiency.  
+**Technologies Used**:  
+- Python (Pandas, NumPy, SciPy, Matplotlib)  
+- Time Series Forecasting and Data Analysis  
+[View Repository]()
 
 ## Skills Highlighted
-- **Programming Languages**: Python
-- **Data Analysis**: ARIMA, Monte Carlo simulations, statistical modeling
-- **Data Visualization**: Matplotlib, Seaborn
-- **Machine Learning**: Time series forecasting
-- **Tools**: Git, Jupyter Notebooks
+- **Programming Languages**: Python  
+- **Data Analysis**: Time Series Forecasting, Statistical Modeling, Monte Carlo Simulations  
+- **Data Visualization**: Matplotlib, Seaborn  
+- **Machine Learning**: ARIMA, Monte Carlo Methods  
+- **Tools**: Git, Jupyter Notebooks  
