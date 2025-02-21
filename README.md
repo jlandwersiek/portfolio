@@ -7,6 +7,7 @@ Welcome to my portfolio! This repository showcases a variety of quantitative res
 ### 1. Stock Price Forecasting using ARIMA
 **Description**: This project uses the SP500 index to predict future stock prices using ARIMA models based on historical data.  
 **Objective**: Forecast stock prices and evaluate model performance.  
+
 [Stock Price Analysis](https://github.com/jlandwersiek/portfolio/tree/stock-price-forecasting)
 
 ### 2. Monte Carlo Simulation for π Estimation
@@ -21,6 +22,7 @@ Welcome to my portfolio! This repository showcases a variety of quantitative res
 ### 3. Polarization Data Analysis for Forecasting Unseen Data
 **Description**: Analyzes polarization data to forecast unseen data points using statistical models.  
 **Objective**: Improve predictions from limited measurements by extrapolating data.  
+
 [Polarization Analysis](https://github.com/jlandwersiek/portfolio/tree/polarization-analysis)
 
 
