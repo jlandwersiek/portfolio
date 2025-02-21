@@ -7,7 +7,7 @@ This project demonstrates how to predict the closing stock price of the S&P 500 
   - Predict future stock prices for the S&P 500 index.
   - Evaluate model accuracy and interpret ARIMA results.
 
-### Project Structure
+### Project Structure:
 ```
 ├── code/  
 │   ├── sp500_stock_forecasting.py  # Main script for data preprocessing, modeling, and forecasting  
@@ -21,11 +21,11 @@ This project demonstrates how to predict the closing stock price of the S&P 500 
 └── README.md
 ```
 
-### Technologies Used  
+### Technologies Used:  
   - Python (pandas, numpy, matplotlib, statsmodels, pmdarima, scikit-learn)
   - Yahoo Finance API (yfinance)
 
-### Running the Project  
+### Running the Project:  
 To run this project:  
 
   1. Install the required libraries:
