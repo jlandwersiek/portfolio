@@ -11,11 +11,15 @@ This project uses Monte Carlo methods for statistical analysis, including calcul
 ### Project Structure:
 ```
 ├── code/  
-│   ├── monte_carlo.py # Main script for Monte Carlo simulations  
+│   ├── monte_carlo_statistics.py # Main script for Monte Carlo simulations  
 ├── plots/  
-│   ├── pi_calculation.png # Plot for calculating π  
-│   ├── poisson_deviates.png # Poisson distribution histograms  
-│   ├── gaussian_deviates.png # Gaussian deviates generated using Box-Muller  
+│   ├── poisson_mu1.png # Poisson distribution histogram - μ = 1  
+│   ├── poisson_mu10.png # Poisson distribution histogram - μ = 10.3  
+│   ├── poisson_mu102.png # Poisson distribution histogram - μ = 102.1
+│   ├── gaussian_x.png # Gaussian deviates generated using Box-Muller - x coordinates
+│   ├── gaussian_y.png # Gaussian deviates generated using Box-Muller - y coordinates
+├── paper/
+│   ├── monte_carlo_statistics.pdf # Report on project
 ├── README.md
 ```
 
