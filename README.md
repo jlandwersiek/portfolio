@@ -33,11 +33,11 @@ If you're interested in data science, physics applications, or energy analytics,
 
 [Stock Price Analysis](https://github.com/jlandwersiek/portfolio/tree/stock-price-forecasting)
 
-### 2. Monte Carlo Simulation for π Estimation
-**Description**: Demonstrates Monte Carlo methods for estimating π and analyzing Poisson and Gaussian distributions.  
+### 2. Monte Carlo Techniques for Statistical Analysis of Data
+**Description**: Demonstrates Monte Carlo methods for estimating π, the volume of n-dimensional hyperspheres and analyzing Poisson and Gaussian distributions.  
 **Technologies Used**: Python (NumPy, Matplotlib), Monte Carlo methods (Acceptance/Rejection, Box-Muller Transformations)
 
-[Monte Carlo Paper](https://github.com/jlandwersiek/portfolio/tree/monte-carlo-paper)
+[Monte Carlo Techniques]((https://github.com/jlandwersiek/portfolio/tree/monte_carlo_statistics))
 
 
 ### 3. Polarization Data Analysis for Forecasting Unseen Data
