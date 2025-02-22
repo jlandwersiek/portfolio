@@ -37,7 +37,7 @@ If you're interested in data science, physics applications, or energy analytics,
 **Description**: Demonstrates Monte Carlo methods for estimating π, the volume of n-dimensional hyperspheres and analyzing Poisson and Gaussian distributions.  
 **Technologies Used**: Python (NumPy, Matplotlib), Monte Carlo methods (Acceptance/Rejection, Box-Muller Transformations)
 
-[Monte Carlo Techniques]((https://github.com/jlandwersiek/portfolio/tree/monte_carlo_statistics))
+[Monte Carlo Techniques](https://github.com/jlandwersiek/portfolio/tree/monte_carlo_statistics)
 
 
 ### 3. Polarization Data Analysis for Forecasting Unseen Data
