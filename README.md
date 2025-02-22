@@ -1,63 +1,61 @@
-# Jessica Landwersiek - Portfolio  
-Welcome to my portfolio! This repository showcases a variety of quantitative research projects, including time series forecasting, Monte Carlo simulations, data analysis with Python, and energy efficiency modeling.
+## Power Grid Stability and Forecasting  
+### Overview:   
+This project simulates a basic power grid network, generates demand fluctuations for substations, and applies statistical and machine learning techniques to analyze the grid's stability. The project also forecasts future power demand and classifies substations into stability categories based on their demand fluctuations.
 
-## 👋 Hi, I'm Jessie!  
-I'm a scientist and data analyst with a background in nuclear physics, mathematical modeling, and statistical analysis. My expertise lies in data-driven problem solving, regression modeling, and time series forecasting. I have a strong foundation in Python, curve fitting, and energy analytics.
+### Objective:  
+- Model a power grid with substations, transmission lines, and power demand.  
+- Simulate demand fluctuations and visualize power grid structure.  
+- Analyze grid stability using statistical methods.  
+- Apply machine learning (K-means clustering) to classify substations' stability.  
+- Forecast future power demand using ARIMA models.  
+- Visualize the power grid structure, stability analysis, and demand fluctuations.  
 
-## 🔬 Physics & Research  
-Previously worked in nuclear physics, where I developed mathematical models for deep inelastic scattering experiments at JLab and applied statistical fitting techniques to analyze experimental data.
+### Project Structure:
+```
+├── code/
+│   ├── power_grid_analysis.py  # Main script for grid simulation, stability analysis, and forecasting
+├── plots/
+│   ├── power_grid_structure.png  # Visualization of the power grid structure
+│   ├── substation_stability.png  # Stability classification of substations
+│   ├── demand_fluctuations.png  # Power demand fluctuations over 24 hours for each substation
+│   ├── stability_clustering.png  # K-means clustering of stability categories
+└── README.md
+```
 
-## ⚡ Current Focus  
-Exploring applications of data science and forecasting in energy and financial markets, including power grid load forecasting and ARIMA-based financial modeling.
+### Technologies Used:  
+- Python (NumPy, Pandas, NetworkX, Matplotlib, Scikit-Learn, pmdarima)  
+- Data Visualization (Matplotlib, NetworkX)  
+- Machine Learning (K-Means Clustering, ARIMA for forecasting)  
+- Statistical Analysis (Time-Series Analysis, Load Fluctuation, and Voltage Deviation)  
 
-## 💻 Tech Stack  
-**Programming:** Python (pandas, numpy, scipy, matplotlib, scikit-learn, tensorflow)  
-**Data Analysis & Modeling:** curve fitting, regression analysis, statistical inference, time series forecasting  
-**Applications:** energy analytics, financial modeling, predictive analytics, feature engineering
+### Running the Project:  
+To run this project:  
+1. Install the required libraries:
+```
+pip install numpy pandas networkx matplotlib sklearn pmdarima
+```
+2. Run the main script:  
+```
+python code/power_grid_stability.py
+```
+3. The script will generate visualizations of the grid structure, power demand fluctuations, stability classifications, and clustering results.
 
-## 🚀 What I'm Working On  
-- Expanding my portfolio with projects in forecasting, regression modeling, and energy analytics  
-- Transitioning into a research-focused or data-driven role in energy, R&D, or predictive analytics
-
-## 📫 Let's Connect!  
-If you're interested in data science, physics applications, or energy analytics, feel free to reach out!
-
-[LinkedIn](https://www.linkedin.com/in/jessicarland)
-  
-  
-## Projects
-
-### 1. Stock Price Forecasting using ARIMA
-**Description**: This project uses the SP500 index to predict future stock prices using ARIMA models based on historical data.  
-**Objective**: Forecast stock prices and evaluate model performance.  
-
-[Stock Price Analysis](https://github.com/jlandwersiek/portfolio/tree/stock-price-forecasting)
-
-### 2. Monte Carlo Simulation for π Estimation
-**Description**: Demonstrates Monte Carlo methods for estimating π and analyzing Poisson and Gaussian distributions.  
-**Technologies Used**: Python (NumPy, Matplotlib), Monte Carlo methods (Acceptance/Rejection, Box-Muller Transformations)
-
-[Monte Carlo Paper](https://github.com/jlandwersiek/portfolio/tree/monte-carlo-paper)
-
-
-### 3. Polarization Data Analysis for Forecasting Unseen Data
-**Description**: Analyzes polarization data to forecast unseen data points using statistical models.  
-**Objective**: Improve predictions from limited measurements by extrapolating data.  
-
-[Polarization Analysis](https://github.com/jlandwersiek/portfolio/tree/polarization-analysis)
-
-
-### 4. Power Grid and Energy Efficiency Forecasting
-**Description**: Modeling and forecasting energy consumption trends using statistical analysis to improve energy grid efficiency.  
-**Technologies Used**: Python (NumPy, Pandas, NetworkX, Matplotlib, Scikit-Learn, pmdarima), Time Series Forecasting and Data Analysis, Energy Analysis
-
-[Energy Analysis](https://github.com/jlandwersiek/portfolio/tree/energy-analysis)
-
-## Skills Highlighted
-- **Data Analysis & Forecasting:** Utilizing time-series analysis to model and predict power demand using ARIMA, applying machine learning techniques such as K-means clustering to assess grid stability.
-- **Machine Learning:** Implementing K-means clustering for stability classification, forecasting power demand using ARIMA, and leveraging regression models to understand energy efficiency in buildings.
-- **Statistical Analysis:** Conducting load fluctuation analysis and calculating voltage deviations to detect instability in power grids, applying statistical methods to assess the stability of substations.
-- **Data Visualization:** Creating visualizations using Matplotlib to showcase power demand trends, load fluctuations, and clustering results, as well as visualizing network graphs with NetworkX for grid structure representation.
-- **Energy & Power Systems:** Simulating and analyzing power grid systems, from basic grid structures with substations and transmission lines to advanced stability analysis using demand simulations.
-- **Forecasting & Optimization:** Using ARIMA models for forecasting future energy demand, and implementing strategies to balance grid loads for optimal efficiency.
-- **Programming:** Proficient in Python, using libraries such as NumPy, Pandas, Scikit-Learn, and pmdarima for data processing, modeling, and machine learning tasks.
+### Detailed Steps  
+#### Step 1: Simulate a Simple Power Grid  
+- Define the grid as a graph with substations as nodes and transmission lines as edges.  
+- Simulate hourly power demand fluctuations for each substation over 24 hours.  
+- Visualize the power grid structure.  
+#### Step 2: Analyze Stability Using Statistical Methods  
+- Calculate voltage deviations (standard deviation of demand) and load fluctuations (difference in demand between consecutive hours).  
+- Identify substations with significant instability using a threshold for voltage deviation.  
+- Visualize instability metrics for interpretation.  
+#### Step 3: Apply Machine Learning for Stability Clustering  
+- Prepare data for K-means clustering based on voltage deviation and load fluctuation.  
+- Classify substations into stability categories: Stable, Moderately Unstable, and Highly Unstable.  
+- Visualize the clustering results.  
+#### Step 4: Forecast Power Demand Using ARIMA  
+- Use the auto_arima function to forecast future demand for each substation.  
+- Evaluate forecast accuracy using Mean Absolute Error (MAE).  
+#### Step 5: Visualize & Interpret Findings  
+- Visualize power demand fluctuations over 24 hours for each substation.  
+- Highlight periods of instability and analyze the results.
