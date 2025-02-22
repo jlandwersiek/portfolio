@@ -25,8 +25,10 @@ This project uses Monte Carlo methods for statistical analysis, including calcul
 
 ### Running the Project:
 1. Install required libraries:
+   
    ```
    pip install numpy matplotlib
+   ```
 2. Run the main script:
    ```
    python code/monte_carlo.py
