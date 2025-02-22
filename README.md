@@ -1,63 +1,56 @@
-# Jessica Landwersiek - Portfolio  
-Welcome to my portfolio! This repository showcases a variety of quantitative research projects, including time series forecasting, Monte Carlo simulations, data analysis with Python, and energy efficiency modeling.
+## Monte Carlo Techniques for Statistical Analysis of Data
 
-## 👋 Hi, I'm Jessie!  
-I'm a scientist and data analyst with a background in nuclear physics, mathematical modeling, and statistical analysis. My expertise lies in data-driven problem solving, regression modeling, and time series forecasting. I have a strong foundation in Python, curve fitting, and energy analytics.
+### Overview:  
+This project uses Monte Carlo methods for statistical analysis, including calculating the value of π, simulating Poisson and Gaussian distributions, and exploring n-dimensional hypersphere volumes. The methods utilized include acceptance/rejection and transformation techniques.
 
-## 🔬 Physics & Research  
-Previously worked in nuclear physics, where I developed mathematical models for deep inelastic scattering experiments at JLab and applied statistical fitting techniques to analyze experimental data.
-
-## ⚡ Current Focus  
-Exploring applications of data science and forecasting in energy and financial markets, including power grid load forecasting and ARIMA-based financial modeling.
-
-## 💻 Tech Stack  
-**Programming:** Python (pandas, numpy, scipy, matplotlib, scikit-learn, tensorflow)  
-**Data Analysis & Modeling:** curve fitting, regression analysis, statistical inference, time series forecasting  
-**Applications:** energy analytics, financial modeling, predictive analytics, feature engineering
-
-## 🚀 What I'm Working On  
-- Expanding my portfolio with projects in forecasting, regression modeling, and energy analytics  
-- Transitioning into a research-focused or data-driven role in energy, R&D, or predictive analytics
-
-## 📫 Let's Connect!  
-If you're interested in data science, physics applications, or energy analytics, feel free to reach out!
-
-[LinkedIn](https://www.linkedin.com/in/jessicarland)
+### Objective:  
+- Use Monte Carlo methods to calculate π via the acceptance/rejection method.
+- Simulate Poisson deviates and Gaussian deviates using Box-Muller transformation.
+- Calculate the volume of n-dimensional hyperspheres using random number sampling.
   
-  
-## Projects
+### Project Structure:
+```
+├── code/  
+│   ├── monte_carlo.py # Main script for Monte Carlo simulations  
+├── plots/  
+│   ├── pi_calculation.png # Plot for calculating π  
+│   ├── poisson_deviates.png # Poisson distribution histograms  
+│   ├── gaussian_deviates.png # Gaussian deviates generated using Box-Muller  
+├── README.md
+```
 
-### 1. Stock Price Forecasting using ARIMA
-**Description**: This project uses the SP500 index to predict future stock prices using ARIMA models based on historical data.  
-**Objective**: Forecast stock prices and evaluate model performance.  
+### Technologies Used:
+- Python (NumPy, Matplotlib)
+- Monte Carlo methods for statistical analysis
 
-[Stock Price Analysis](https://github.com/jlandwersiek/portfolio/tree/stock-price-forecasting)
+### Running the Project:
+1. Install required libraries:
+   ```
+   pip install numpy matplotlib
+2. Run the main script:
+   ```
+   python code/monte_carlo.py
+   ```
 
-### 2. Monte Carlo Simulation for π Estimation
-**Description**: Demonstrates Monte Carlo methods for estimating π and analyzing Poisson and Gaussian distributions.  
-**Technologies Used**: Python (NumPy, Matplotlib), Monte Carlo methods (Acceptance/Rejection, Box-Muller Transformations)
+### Detailed Steps:
+#### Step 1: Calculate π using Acceptance/Rejection  
+- Random points are chosen within a square, and the ratio of points within a circle gives an estimate for π.  
+#### Step 2: Simulate Poisson Deviates  
+- Generate histograms for Poisson deviates with different means (μ = 1, μ = 10.3, μ = 102.1).
+#### Step 3: Generate Gaussian Deviates using Box-Muller  
+- Generate Gaussian deviates using the Box-Muller transformation and calculate χ² values.  
+#### Step 4: Calculate n-Dimensional Hypersphere Volumes  
+- Use random number sampling to calculate the volume of n-dimensional hyperspheres (3D, 4D, 5D).  
 
-[Monte Carlo Paper](https://github.com/jlandwersiek/portfolio/tree/monte-carlo-paper)
+### Results:  
+- π Calculation: Converges to 3.1404 with an uncertainty of 0.0016 after sufficient iterations.  
+- Poisson Deviates: Histograms for different values of μ show varying concentration around the mean.  
+- Gaussian Deviates: χ² values for two perpendicular Gaussian distributions are close to 1.  
 
+### Conclusion:  
+Monte Carlo techniques effectively simulate random processes and provide insights into physical sciences, especially in statistical analysis and error estimation.
 
-### 3. Polarization Data Analysis for Forecasting Unseen Data
-**Description**: Analyzes polarization data to forecast unseen data points using statistical models.  
-**Objective**: Improve predictions from limited measurements by extrapolating data.  
-
-[Polarization Analysis](https://github.com/jlandwersiek/portfolio/tree/polarization-analysis)
-
-
-### 4. Power Grid and Energy Efficiency Forecasting
-**Description**: Modeling and forecasting energy consumption trends using statistical analysis to improve energy grid efficiency.  
-**Technologies Used**: Python (NumPy, Pandas, NetworkX, Matplotlib, Scikit-Learn, pmdarima), Time Series Forecasting and Data Analysis, Energy Analysis
-
-[Energy Analysis](https://github.com/jlandwersiek/portfolio/tree/energy-analysis)
-
-## Skills Highlighted
-- **Data Analysis & Forecasting:** Utilizing time-series analysis to model and predict power demand using ARIMA, applying machine learning techniques such as K-means clustering to assess grid stability.
-- **Machine Learning:** Implementing K-means clustering for stability classification, forecasting power demand using ARIMA, and leveraging regression models to understand energy efficiency in buildings.
-- **Statistical Analysis:** Conducting load fluctuation analysis and calculating voltage deviations to detect instability in power grids, applying statistical methods to assess the stability of substations.
-- **Data Visualization:** Creating visualizations using Matplotlib to showcase power demand trends, load fluctuations, and clustering results, as well as visualizing network graphs with NetworkX for grid structure representation.
-- **Energy & Power Systems:** Simulating and analyzing power grid systems, from basic grid structures with substations and transmission lines to advanced stability analysis using demand simulations.
-- **Forecasting & Optimization:** Using ARIMA models for forecasting future energy demand, and implementing strategies to balance grid loads for optimal efficiency.
-- **Programming:** Proficient in Python, using libraries such as NumPy, Pandas, Scikit-Learn, and pmdarima for data processing, modeling, and machine learning tasks.
+### References: 
+1. P. R. Bevington and D. K. Robinson, Data Reduction and Error Analysis for the Physical Sciences.  
+2. J. K. Blitzstein and J. Hwang, Introduction to Probability.  
+3. I. G. Hughes and T. P. A. Hase, Measurements and their Uncertainties: A Practical Guide to Modern Error Analysis.  
