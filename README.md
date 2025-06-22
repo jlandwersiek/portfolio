@@ -1,25 +1,25 @@
 # Jessica Landwersiek - Portfolio  
 Welcome to my portfolio! This repository showcases a variety of quantitative research projects, including time series forecasting, Monte Carlo simulations, data analysis with Python, and energy efficiency modeling.
 
-## 👋 Hi, I'm Jessie!  
+## Hi, I'm Jessie!  
 I'm a scientist and data analyst with a background in nuclear physics, mathematical modeling, and statistical analysis. My expertise lies in data-driven problem solving, regression modeling, and time series forecasting. I have a strong foundation in Python, curve fitting, and energy analytics.
 
-## 🔬 Physics & Research  
+## Physics & Research  
 Previously worked in nuclear physics, where I developed mathematical models for deep inelastic scattering experiments at JLab and applied statistical fitting techniques to analyze experimental data.
 
-## ⚡ Current Focus  
+## Current Focus  
 Exploring applications of data science and forecasting in energy and financial markets, including power grid load forecasting and ARIMA-based financial modeling.
 
-## 💻 Tech Stack  
+## Tech Stack  
 **Programming:** Python (pandas, numpy, scipy, matplotlib, scikit-learn, tensorflow)  
 **Data Analysis & Modeling:** curve fitting, regression analysis, statistical inference, time series forecasting  
 **Applications:** energy analytics, financial modeling, predictive analytics, feature engineering
 
-## 🚀 What I'm Working On  
+## What I'm Working On  
 - Expanding my portfolio with projects in forecasting, regression modeling, and energy analytics  
 - Transitioning into a research-focused or data-driven role in energy, R&D, or predictive analytics
 
-## 📫 Let's Connect!  
+## Let's Connect!  
 If you're interested in data science, physics applications, or energy analytics, feel free to reach out!
 
 [LinkedIn](https://www.linkedin.com/in/jessicarland)
