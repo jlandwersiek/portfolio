@@ -1,6 +1,8 @@
 ## Power Grid Stability and Forecasting  
 
 ### Overview:  
+This project applies the same clustering and forecasting techniques used in [The Decay Lab](https://thedecaylab.com) for VIX regime classification and strategy performance analysis across market conditions.
+
 This project simulates a basic power grid network, generates demand fluctuations for substations, and applies statistical and machine learning techniques to analyze the grid's stability. The project also forecasts future power demand and classifies substations into stability categories based on their demand fluctuations.
 
 ### Objective:  
