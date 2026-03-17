@@ -1,63 +1,88 @@
-# Jessica Landwersiek - Portfolio  
-Welcome to my portfolio! This repository showcases a variety of quantitative research projects, including time series forecasting, Monte Carlo simulations, data analysis with Python, and energy efficiency modeling.
+# Jessica Landwersiek — Portfolio
 
-## Hi, I'm Jessie!  
-I'm a scientist and data analyst with a background in nuclear physics, mathematical modeling, and statistical analysis. My expertise lies in data-driven problem solving, regression modeling, and time series forecasting. I have a strong foundation in Python, curve fitting, and energy analytics.
+**Physicist → Applied ML → Production Systems**
 
-## Physics & Research  
-Previously worked in nuclear physics, where I developed mathematical models for deep inelastic scattering experiments at JLab and applied statistical fitting techniques to analyze experimental data.
+Scientist and applied ML practitioner with a background in experimental nuclear physics (Jefferson Lab, DOE-funded) and a current focus on quantitative finance and production machine learning systems. I build things that extract real signals from noisy data — whether that data is particle collision events or options market prices.
 
-## Current Focus  
-Exploring applications of data science and forecasting in energy and financial markets, including power grid load forecasting and ARIMA-based financial modeling.
+## Featured: The Decay Lab
 
-## Tech Stack  
-**Programming:** Python (pandas, numpy, scipy, matplotlib, scikit-learn, tensorflow)  
-**Data Analysis & Modeling:** curve fitting, regression analysis, statistical inference, time series forecasting  
-**Applications:** energy analytics, financial modeling, predictive analytics, feature engineering
+**[thedecaylab.com](https://thedecaylab.com)** — A production quantitative trading research platform I built from the ground up.
 
-## What I'm Working On  
-- Expanding my portfolio with projects in forecasting, regression modeling, and energy analytics  
-- Transitioning into a research-focused or data-driven role in energy, R&D, or predictive analytics
+- **Backtest engine** with 7 futures strategies (ORB, EMA, SMA, VWAP, RSI, IBS, EMA+VWAP) and options credit/debit spreads across 14 years of historical data
+- **Strategy builder** — free-form rule engine where users define custom entry conditions using any combination of indicators, with configurable exits (TP/SL/trailing/time stop), concurrent position management, and portfolio combination with correlation analysis
+- **TIER 1.1 options engine** matched to 7.5 years of research — Black-Scholes with tuned IV model, SABR for longer-dated options, 66% bid-ask slippage model (ORATS methodology)
+- **Statistical validation** on every backtest: Monte Carlo simulation (5,000 bootstraps), walk-forward testing, Deflated Sharpe Ratio, VIX regime breakdown
+- **Parameter sweep** engine for grid search optimization across any strategy configuration
+- **Chain snapshot backtest** using real IQFeed bid/ask/IV/delta data instead of synthetic pricing
+- **Paper trading dashboard** with live IQFeed market data, automated trade execution, and performance tracking
+- **Production infrastructure**: Flask + Gunicorn + Nginx + Let's Encrypt, 5+ systemd services, automated IQFeed watchdog, daily data pipeline cron jobs
 
-## Let's Connect!  
-If you're interested in data science, physics applications, or energy analytics, feel free to reach out!
+**Live trading record**: Deploying a 1-DTE SPX call credit spread strategy validated by 1,878 days of backtesting (99.1% WR, Sharpe 8.03). Every trade published to [@TheDecayLab](https://t.me/TheDecayLab) on Telegram.
 
-[LinkedIn](https://www.linkedin.com/in/jessicarland)
-  
-  
-## Projects
+**Stack**: Python, Flask, Gunicorn, Nginx, SQLite, IQFeed, Tradier API, systemd, Bootstrap, Reportlab
+
+---
+
+## Research Projects
 
 ### 1. Stock Price Forecasting using ARIMA
-**Description**: This project uses the SP500 index to predict future stock prices using ARIMA models based on historical data.  
-**Objective**: Forecast stock prices and evaluate model performance.  
+Predicts S&P 500 index prices using ARIMA models and historical data analysis. Evaluates model performance against real market data.
 
-[Stock Price Analysis](https://github.com/jlandwersiek/portfolio/tree/stock-price-forecasting)
+[View Project](https://github.com/jlandwersiek/portfolio/tree/stock-price-forecasting)
 
-### 2. Monte Carlo Techniques for Statistical Analysis of Data
-**Description**: Demonstrates Monte Carlo methods for estimating π, the volume of n-dimensional hyperspheres and analyzing Poisson and Gaussian distributions.  
-**Technologies Used**: Python (NumPy, Matplotlib), Monte Carlo methods (Acceptance/Rejection, Box-Muller Transformations)
+### 2. Monte Carlo Techniques for Statistical Analysis
+Demonstrates Monte Carlo methods for estimating π, computing n-dimensional hypersphere volumes, and analyzing Poisson and Gaussian distributions. Uses acceptance/rejection sampling and Box-Muller transformations.
 
-[Monte Carlo Techniques](https://github.com/jlandwersiek/portfolio/tree/monte_carlo_statistics)
+[View Project](https://github.com/jlandwersiek/portfolio/tree/monte_carlo_statistics)
 
+### 3. Polarization Data Analysis
+Analyzes polarization data from nuclear physics experiments to forecast unseen data points using polynomial regression and chi-squared fitting. Extrapolates from limited measurements with quantified uncertainty.
 
-### 3. Polarization Data Analysis for Forecasting Unseen Data
-**Description**: Analyzes polarization data to forecast unseen data points using statistical models.  
-**Objective**: Improve predictions from limited measurements by extrapolating data.  
-
-[Polarization Analysis](https://github.com/jlandwersiek/portfolio/tree/polarization-analysis)
-
+[View Project](https://github.com/jlandwersiek/portfolio/tree/polarization-analysis)
 
 ### 4. Power Grid and Energy Efficiency Forecasting
-**Description**: Modeling and forecasting energy consumption trends using statistical analysis to improve energy grid efficiency.  
-**Technologies Used**: Python (NumPy, Pandas, NetworkX, Matplotlib, Scikit-Learn, pmdarima), Time Series Forecasting and Data Analysis, Energy Analysis
+Models energy consumption trends using time-series analysis, K-means clustering for substation stability classification, and ARIMA-based demand forecasting with interactive network visualizations.
 
-[Energy Analysis](https://github.com/jlandwersiek/portfolio/tree/energy-analysis)
+[View Project](https://github.com/jlandwersiek/portfolio/tree/energy-analysis)
 
-## Skills Highlighted
-- **Data Analysis & Forecasting:** Utilizing time-series analysis to model and predict power demand using ARIMA, applying machine learning techniques such as K-means clustering to assess grid stability.
-- **Machine Learning:** Implementing K-means clustering for stability classification, forecasting power demand using ARIMA, and leveraging regression models to understand energy efficiency in buildings.
-- **Statistical Analysis:** Conducting load fluctuation analysis and calculating voltage deviations to detect instability in power grids, applying statistical methods to assess the stability of substations.
-- **Data Visualization:** Creating visualizations using Matplotlib to showcase power demand trends, load fluctuations, and clustering results, as well as visualizing network graphs with NetworkX for grid structure representation.
-- **Energy & Power Systems:** Simulating and analyzing power grid systems, from basic grid structures with substations and transmission lines to advanced stability analysis using demand simulations.
-- **Forecasting & Optimization:** Using ARIMA models for forecasting future energy demand, and implementing strategies to balance grid loads for optimal efficiency.
-- **Programming:** Proficient in Python, using libraries such as NumPy, Pandas, Scikit-Learn, and pmdarima for data processing, modeling, and machine learning tasks.
+---
+
+## Other Projects
+
+- [**spy-0dte-gap-trading-dashboard**](https://github.com/jlandwersiek/spy-0dte-gap-trading-dashboard) — SPY 0-DTE gap analysis with sector-level scoring and market internals
+- [**credit-spread-dashboard**](https://github.com/jlandwersiek/credit-spread-dashboard) — Options credit spread analytics with premium efficiency modeling
+- [**trend-score-app**](https://github.com/jlandwersiek/trend-score-app) — Multi-factor trend scoring system
+- [**spy-analyzer**](https://github.com/jlandwersiek/spy-analyzer) — SPY options analysis platform
+- [**stock-move-dashboard**](https://github.com/jlandwersiek/stock-move-dashboard) — Stock movement analysis and visualization
+
+---
+
+## Technical Skills
+
+**Languages**: Python (advanced), SQL, C++, R
+
+**ML & Statistics**: Regression, classification, clustering, Monte Carlo simulation, Bayesian inference, walk-forward validation, chi-squared analysis, Black-Scholes & SABR options pricing, Deflated Sharpe Ratio
+
+**Frameworks**: Scikit-learn, NumPy, Pandas, SciPy, Flask, Streamlit, Reportlab
+
+**Infrastructure**: IQFeed, Tradier API, IBKR, Gunicorn, Nginx, systemd, SQLite, Let's Encrypt
+
+**Tooling**: Claude Code, Git, Jupyter, Matplotlib, Bootstrap
+
+---
+
+## Education
+
+**M.S. in Physics** — Florida International University (2024)
+*Experimental nuclear physics, statistical modeling, Monte Carlo methods. Research at Jefferson Lab.*
+
+**B.S. in Physics & B.A. in Natural and Applied Sciences** — Florida International University (2021)
+
+---
+
+## Contact
+
+- **Web**: [thedecaylab.com](https://thedecaylab.com)
+- **Telegram**: [@TheDecayLab](https://t.me/TheDecayLab)
+- **LinkedIn**: [linkedin.com/in/jessicarland](https://www.linkedin.com/in/jessicarland)
+- **Email**: jessicarland@outlook.com
