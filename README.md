@@ -1,6 +1,8 @@
 ## S&P 500 Stock Price Forecasting using ARIMA
 
 ### Overview:  
+This early exploration of time-series forecasting laid the groundwork for the production forecasting systems in [The Decay Lab](https://thedecaylab.com), where ARIMA concepts evolved into Monte Carlo-validated strategy backtesting across 14 years of futures data.
+
 This project demonstrates how to predict the closing stock price of the S&P 500 index using ARIMA (AutoRegressive Integrated Moving Average). The goal is to forecast future stock prices based on historical data and evaluate the model's performance using common error metrics.
 
 ### Objective:  
