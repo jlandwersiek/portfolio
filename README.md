@@ -1,6 +1,8 @@
 ## Monte Carlo Techniques for Statistical Analysis of Data
 
 ### Overview:  
+These foundational Monte Carlo techniques are now used in production at [The Decay Lab](https://thedecaylab.com), where 5,000+ bootstrap simulations validate every strategy backtest. This project demonstrates the core methods.
+
 This project uses Monte Carlo methods for statistical analysis, including calculating the value of π, simulating Poisson and Gaussian distributions, and exploring n-dimensional hypersphere volumes. The methods utilized include acceptance/rejection and transformation techniques.
 
 ### Objective:  
