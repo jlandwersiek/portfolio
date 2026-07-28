@@ -1,7 +1,5 @@
 # Multiple Regression for Deep Inelastic Scattering Experiments
 
-> The chi-squared fitting, covariance matrix analysis, and error propagation techniques from this research are the same statistical foundations used in [The Decay Lab](https://thedecaylab.com) for options pricing model validation and strategy confidence scoring.
-
 This project applies multiple regression using a least squares fit to polynomials of degree 3 and degree 4. The goal is to model the `Rsum` (summed polarization) from electron-proton deep inelastic scattering experiments, analyzing the behavior of the polarization and cross-section in the context of K meson scattering. The results are compared using the reduced chi-squared to determine the goodness of fit between polynomials of different degrees.
 
 ## Key Concepts
